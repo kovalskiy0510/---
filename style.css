@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(253, 227, 251);
+    color: rgb(66, 1, 4);
+
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; 
+
+    /*font: normal 16px 'Roboto', sans-serif; */ 
+}
+
+a {
+    color:rgb(6, 153, 116);
+    text-decoration: none
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(4, 248, 187);
+}
+
+a:visited{
+    color: seagreen;
+}
+.avatar {
+    width: 150px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 17px rgb(0, 0, 0);
+}
+
+.info p{
+    color:rgb(201, 136, 136);
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration-line:inherit;
+    text-transform: lowercase;
+    /*text-transform: */
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+.education {
+    background: rgb(253, 154, 154);
+    
+    padding: 10px;
+    padding: 10px 25px;
+   
+    border: 3px solid rgb(243, 83, 118); 
+    border-bottom-style:groove;
+    border-right-style:groove;
+    border-top-width: 7px;
+    border-left-width:7px; 
+    
+    margin: 5px;
+    text-justify: black; 
+} 
+
+.busya {
+
+}
+
+.skils {
+    padding: 50px;
+    background-color: slateblue;
+}
